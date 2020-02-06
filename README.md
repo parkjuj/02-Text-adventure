@@ -1,2 +1,2 @@
 # 02-Text-adventure
-A text adventure game.
+This is my text adventure game, which I've dubbed Inferno, parts of it roughly based off of Dante's work. While there aren't many items, the descriptive language makes up for what the game lacks in that aspect. 

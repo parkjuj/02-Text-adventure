@@ -1,0 +1,70 @@
+{
+	"CELL": {
+		"name": "Prison Cell",
+		"desc": "You awake in a dark, musty prison cell. The door to your lockup has been left slightly ajar.",
+		"exits": [{
+			"exit": "DOOR",
+			"target": "FOYER"
+		}],
+		"items": []
+	},
+	"FOYER": {
+		"name": "Hallway",
+		"desc": "Upon exiting the cell, you find yourself in a long hallway, with openings on the North and South ends of the hall. \nLight can be seen flooding in from the South end. ",
+		"exits": [{
+			"exit": "SOUTH",
+			"target": "SDOOR"
+		}, {
+			"exit": "NORTH",
+			"target": "NDOOR"
+		}],
+		"items": []
+	},
+	"SDOOR": {
+		"name": "Outside",
+		"desc": "You are now outside of the prison. Around you, multiple turrets can be seen, their gray stone forms towering over you. \nArmor clad bodies are strewn around you, their crimson details staining the formerly green field\na disugsting shade of red. You hear sounds of combat to the east, and a path lies north. ",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "PATH"
+		}, {
+			"exit": "EAST",
+			"target": "BATTLE"
+		}],
+		"items": []
+	},
+	"NDOOR": {
+		"name": "A Dark Room",
+		"desc": "You enter a dark room, with no light coming in aside from the torches of the hall you entered from.\nIn the darkness, you can make out a humanoid form crouched in the corner.You call out to it, and immediately regret your decision.\nAs the form turns, you see it was crouched over the eviscerated remains some indiscernable creature.\nThe voracious beast stands, almost double your size even while hunched over. Its face is covered in odious scarlet, its eyes a milky white.\nThe monstrosity flashes a toothy grin at you, its disfigured teeth littered with sinewy flesh. You blink, and it's gone.\nThe last thing you ever feel is the warm, damp breath of the abhorrence down the back of your neck.",
+		"exits": [],
+		"items": []
+	},
+	"BATTLE": {
+		"name": "Battleground",
+		"desc": "You follow the sounds of combat and arrive at a battleground. All around you, knights battle with hellish monstrosities.\nThe creatures appear to be humans turned inside out, their putrid flesh a sickly hue of brown.\n A knight points your way, and you wave towards the combatant. \nYou notice too late that he was, in fact, directing an archer. \nThe archer fires from his crossbow, and before you can react, the steel bolt pierces your chest. \nThe world fades to black as you sink to the ground.",
+		"exits": [],
+		"items": []
+	},
+	"PATH": {
+		"name": "A Dirt Path",
+		"desc": "You find yourself on a dirt path, that diverges to the left and right.\nA sign in front of you reads: To the right lies your salvation. To the left, your innermost desires. ",
+		"exits": [{
+			"exit": "LEFT",
+			"target": "LTURN"
+		}, {
+			"exit": "RIGHT",
+			"target": "RTURN"
+		}],
+		"items": []
+	},
+	"LTURN": {
+		"name": "Inferno",
+		"desc": "The sins of man shall not go unpunished. Your avarice has won you the prize of eternal damnation. Hope you like pushing weights!",
+		"exits": []
+	},
+	"RTURN": {
+		"name": "Paradiso",
+		"desc": "Your salvation has come to you. The archangel Michael descends before you, his form covered in eyes (Ezekiel 10:12). \nHe smites you with holy flames, the benefactor's warmth covering you, and you ascend to Paradise. \nYou are saved.",
+		"exits": [],
+		"items": []
+	}
+}	
